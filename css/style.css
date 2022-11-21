@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    background-color: rgb(248, 248, 248);
+}
+
+*{
+    margin: 0;
+    padding-left: 0;
+}
+
+.navigation-bar, .button-1{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-bar{
+    width: 100%;
+    background-color: rgba(64, 137, 67, 0.84);
+    height: 3em;
+    justify-content: space-between;
+}
+
+
+.navigation-bar a, span {
+    color: rgb(0, 0, 0);
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.logo{
+    width: 4rem;
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+}
+
+#sobre-ipojuca  {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-nav-boxes{
+    border: 5px solid rgb(255, 255, 255); 
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 15px 1px rgb(0, 0, 0, 0.29);
+    padding: 5px 5px 5px 5px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: -30px;
+    }
+
+.nav-boxes {    
+    text-align: center;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.blocos img{
+    border-radius: 10px;
+}
+
+
+/* HISTORIA DO RIO */
+
+.historia {
+    border: 10px;
+    width: 70rem;
+    margin:auto;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+
+#ipojuca-old {
+    width: 1000px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.historia img, h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.historia h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    
+}
+
+.img-texto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 700px;
+    height: 200px;
+}
+
+.divisor-verde{
+    border: 2px solid green;
+    border-radius: 10px;
+    background: green;
+}
+
+.box-paises img {
+    width: 700px;
+    text-align: center;
+    justify-self: center;
+}
+
+.paises{
+    border:15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 760px;
+}
+
+.paises h3{
+    text-align: left;
+}
+
+.divisor-verde-paises{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 300px;
+    align-items: center;
+    border: 2px solid green;
+    border-radius: 10px;
+    background: green;
+}
+
+.texto-paises{
+    text-align: left;
+    font-weight: bold;
+}
+
+.img-paises{
+    width: 750px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+
+
+
